@@ -1,0 +1,49 @@
+.nav {
+    position: fixed;
+    bottom:0;
+    width:100%;
+    background-color:#F9F9FA ;
+    padding: 29px 30px;
+    box-sizing: border-box;
+    /* box-sizing: border-box; border 늘리지 않기*/
+    border-top: 1px solid #e0e0e0;
+}
+
+.nav__list {
+    display: flex;
+    justify-content:space-between;
+}
+
+.nav__link {
+    position: relative;
+    color: #2F363E;
+}
+
+.nav__notification {
+    
+    background-color: tomato;
+    width:25px;
+    height:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.nav__new {
+    
+    background-color: tomato;
+    width:6px;
+    height:6px;
+    border-radius: 50%;
+    position: absolute;
+    left: 27px;
+    bottom: 15px;
+    color: white;
+    font-weight: 600;
+}
