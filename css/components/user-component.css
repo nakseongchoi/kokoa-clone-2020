@@ -55,3 +55,12 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.user-component__More {
+  font-size: 40px;
+  color: var(#ff968a) ;
+}
+
+.user-component__text i {
+  color: #ff968a;
+}

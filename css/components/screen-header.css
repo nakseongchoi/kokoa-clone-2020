@@ -28,13 +28,13 @@
 }
 
 .screen-header__new {
-        position:absolute;
+        position:relative;
         background-color: tomato;
         width:6px;
         height:6px;
         border-radius: 50%;
         position: absolute;
-        left: 60px;
+        right: -5px;
         bottom: 15px;
         color: white;
         font-weight: 600;
