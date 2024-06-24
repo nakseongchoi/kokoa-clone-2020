@@ -4,7 +4,7 @@
     padding: var(--horizontal-space);
     margin-bottom: 10px;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .screen-header__title {
@@ -12,6 +12,30 @@
     font-weight: 600;
 }
 
+.screen-header__icons {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
 .screen-header__icons span{
     margin-left: 20px;
 }
+
+.screen-header__icons:last-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.screen-header__new {
+        position:absolute;
+        background-color: tomato;
+        width:6px;
+        height:6px;
+        border-radius: 50%;
+        position: absolute;
+        left: 60px;
+        bottom: 15px;
+        color: white;
+        font-weight: 600;
+    }
