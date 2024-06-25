@@ -36,7 +36,7 @@
 
 }
 
-.more-suggestions__option {
+.more-suggestions__icons {
     margin-top: 30px;
     display: flex;
     justify-content: space-between; 
@@ -44,7 +44,7 @@
     flex-wrap: wrap;
 }
 
-.more-suggestions__option-icons {
+.more-suggestions__icons-image {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,11 +52,19 @@
     height: 100px;
 }
 
-.more-suggestions__option-icons i{
+.more-suggestions__icons-image i{
     font-size: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--yellow);
+    display: flex;    
+    justify-content: center;
+    align-items: center;
 }
 
-.more-suggestions__option-icons span{
+.more-suggestions__icons-image span{
     margin-top: 15px;
     font-size: 15px;
 }
