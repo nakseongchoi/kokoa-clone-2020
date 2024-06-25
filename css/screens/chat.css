@@ -97,17 +97,62 @@
 .reply {
   position:fixed;
   bottom:0px;
-  padding-bottom: 400px;
   z-index: 1;
   display: flex;
   justify-content: space-between;
   width: 100%;
+  background-color:white;
+  padding:5px 25px;
+  align-items:center;
+  box-sizing:border-box;
+  /* box-sizing:border-box; 내용에 맞춤 */
+
 }
 
-.reply .form_colum:first-child {
-  width: 20%;
+.reply .reply_column:first-child {
+  width: 10%;
 }
 
-.reply .form_colum:nth-child(2) {
-  width: 80%;
+.reply .reply_column:nth-child(2) {
+  width: 90%;
+  position: relative;
 }
+
+.reply input {
+  height:30px;
+  width:100%;
+  padding-left:15px;
+  border:var(--main-border);
+  border-radius:20px;
+}
+
+.reply_column:last-child > i,
+.reply_column:last-child button {
+  position:absolute;
+  right:-15px;
+  top:2px;
+}
+
+.reply_column:last-child  > i {
+ right: 25px;
+ top:7px;
+ font-size:20px;
+}
+
+.reply i {
+  opacity: 0.5;
+}
+
+.reply_column button {
+  background-color:var(--yellow);
+  border:none ;
+  border-radius:20px;
+  height:30px;
+  width:30px;
+}
+
+.reply_column button i {
+  opacity: 1;
+}
+
+
